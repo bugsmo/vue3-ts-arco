@@ -1,6 +1,7 @@
 {
   "src/**/*.{html,vue,ts,js,json,md}": [
-    "eslint .",
     "eslint . --fix",
-    "stylelint \"./**/*.{css,less,vue,html}\" --fix"]
+    "eslint .",
+    "stylelint \"./**/*.{css,less,vue,html}\" --fix"
+  ]
 }
