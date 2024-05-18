@@ -1,0 +1,15 @@
+{
+  // Disable the default formatter, use eslint instead
+  "prettier.enable": false,
+  "editor.formatOnSave": true,
+
+  // Auto fix
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never",
+    "source.fixAll": "never"
+  },
+
+  // 保存的时候自动格式化Style
+  "stylelint.validate": ["css", "less", "vue", "html"]
+}
