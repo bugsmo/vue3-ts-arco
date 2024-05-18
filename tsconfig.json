@@ -31,6 +31,7 @@
   "include": [
     "src/**/*",
     "src/**/*.vue",
+    "src/**/*.ts",
     "vite.config.ts"
   ], // 指定被编译文件所在的目录
   "exclude": [
